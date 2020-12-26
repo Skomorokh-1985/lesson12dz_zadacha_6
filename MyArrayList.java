@@ -123,8 +123,6 @@ public class MyArrayList<E> {
         }
     }
 
-    //такое ашчушчэние, что с size-ем можно было изначально крутить по другому
-    // но далеко зашел и уже не долго переделывать (или норм?)
     void sizeBySize () {
         System.out.println("sizeBySize = " + size);
     }
@@ -132,7 +130,6 @@ public class MyArrayList<E> {
     void sizeByArrayLength () {
         System.out.println("sizeByArrayLength = " + array.length);
     }
-    // ничесе - одинаково :)
 
 }
 
